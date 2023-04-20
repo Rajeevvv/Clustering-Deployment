@@ -10,7 +10,7 @@ import pickle
 import pandas as pd
 
 # Load the trained model from the pickle file
-with open('C:/Users/user/Desktop/Stuff/Project/Clustering/cluster_km.pkl', 'rb') as file:
+with open('cluster_km.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Function to get input features from user
